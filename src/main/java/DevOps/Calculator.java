@@ -1,6 +1,6 @@
 package DevOps;
 
-public class App {
+public class Calculator {
     public int add(int a, int b) {
         return a + b;
     }
@@ -25,7 +25,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        App myCalc = new App();
+        Calculator myCalc = new Calculator();
         System.out.println(myCalc.add(1, 2));
         System.out.println(myCalc.subtract(1, 2));
         System.out.println(myCalc.multiply(1, 2));
