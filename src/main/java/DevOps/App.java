@@ -18,10 +18,10 @@ public class App {
     }
 
     public int power(int a, int b) {
-        int result = 1;
+        int answer = 1;
         for (int i = 0; i < b; i++)
-            result *= a;
-        return result;
+            answer *= a;
+        return answer;
     }
 
     public static void main(String[] args) {
