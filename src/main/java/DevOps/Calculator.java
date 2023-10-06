@@ -21,7 +21,7 @@ public class Calculator {
         Calculator myCalc = new Calculator();
         System.out.println(myCalc.add(1, 2));
         System.out.println(myCalc.subtract(9, 2));
-        System.out.println(myCalc.multiply(1, 2));
+        System.out.println(myCalc.multiply(6, 2));
         System.out.println(myCalc.divide(1, 2));
     }
 }
